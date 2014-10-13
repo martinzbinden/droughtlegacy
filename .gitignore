@@ -1,3 +1,20 @@
 .Rproj.user
 .Rhistory
 .RData
+tmp/
+
+# ignore data files, need to be saved/copied separately
+#data/
+!data/**/README
+
+#data/**/*.xls
+#data/**/*.csv
+#data/**/*.gnumeric
+#data/**/*.ods
+#data/**/*.gif
+*.xls
+*.xlsx
+*.gnumeric
+*.ods
+*.csv
+*.gif

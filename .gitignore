@@ -8,7 +8,7 @@ tmp/
 !data/**/README
 
 #data/**/*.xls
-#data/**/*.csv
+#!data/**/*.csv
 #data/**/*.gnumeric
 #data/**/*.ods
 #data/**/*.gif
@@ -16,5 +16,6 @@ tmp/
 *.xlsx
 *.gnumeric
 *.ods
+#!*.csv
 *.csv
 *.gif

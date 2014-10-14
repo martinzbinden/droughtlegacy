@@ -13,15 +13,18 @@ falcontubes[202,]
 detach(falcontubes)
 
 match(falcontubes[(is.na(falcontubes$FreshWeightField_g)),], falcontubes[(is.na(falcontubes$FreshWeightLab_g)),]
-      falcontubes[is.na(falcontubes$FreshWeightField_g) is.na(falcontubes$FreshWeightLab_g)  , 1:7]
-      
-      freshmatter <- falcontubes$FreshWeightLab_g - tara$falcontube
-      drymatter <- falcontubes$DryWeight_Lab - tara$falcontube
-      water <- freshmatter - drymatter
       
       
       
-      ##needed first: tara of tube!
-      #watercontent <- water / freshmatter
-      
-      
+falcontubes[is.na(falcontubes$FreshWeightField_g) is.na(falcontubes$FreshWeightLab_g)  , 1:7]
+
+freshmatter <- falcontubes$FreshWeightLab_g - tara$falcontube
+drymatter <- falcontubes$DryWeight_Lab - tara$falcontube
+water <- freshmatter - drymatter
+
+
+
+##needed first: tara of tube!
+#watercontent <- water / freshmatter
+
+

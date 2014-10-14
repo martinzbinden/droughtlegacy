@@ -1,7 +1,6 @@
 # automatic dataimport
 
 getwd()
-
 #Binn
 # Beispiel: BIN <- "http://www.meteoschweiz.admin.ch/files/metweb/verlaufsgrafiken/TagVerlaufRegen.BIN.gif"
 stations <- c("BER", "THU", "VIS", "BRI", "BIN", "ULR", "COM", "SBO")

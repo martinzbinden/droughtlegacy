@@ -3,7 +3,7 @@
 
 
 ## Dateibeschreibungen ##
-|Dateiname  					|
+|Dateiname  					|Beschreibung
 |---------					|-------------
 |Cylinders_DroughtLegacyExpA.csv		| Zylinderproben für Bodenphysik
 |CylindersReplacement_DroughtLegacyExpA.csv	| Tuben statt Zylinder für Thun, Tuben T1, T2, T3, ... (Zylinder wegen Steinen nicht möglich)

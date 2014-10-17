@@ -2,7 +2,7 @@
 - Die leeren Zylinder bilden zusammen mit ihren Deckeln eine feste Einheit (gleiche Nummern), für welche das Tara-Gewicht vorgängig erhoben wurde (unterschiedliche Herkunft = unterschiedliche Leergewichte).
 
 
-== Dateibeschreibungen ==
+## Dateibeschreibungen ##
 |Dateiname  					|
 |---------					|-------------
 |Cylinders_DroughtLegacyExpA.csv		| Zylinderproben für Bodenphysik
@@ -21,8 +21,6 @@ Depth		obere Probentiefe
 	5	5-20 cm
 	25	25-40 cm
 	45	45-60 cm
-		
-		
 		
 		
 DepthTo_cm		unter Probentiefe (falls von Norm abweichend)
@@ -59,7 +57,7 @@ Fehlercodes		Code für fehlende oder mangelhafte Daten
 AluTara		Tara Aluminiumschalen für Trockenschrank. Gleiche Nummer wie Zylinder.
 
 
-Journal:
+## Journal ##
 2014-08-... Probenahme eines Zylinders mit natürlich gelagertem Boden
 	In der Mitte jedes Plots wurde auf einem ungestörten Stück Boden von ca. 15x15 cm die oberste Boden- und Vegetationsschicht entfernt (ca. 4 cm tief). Gemäss Anleitung wurde dann der Probenahme-Zylinder  eingeschlagen und ausgegraben. Wenn möglich, wurden die Zylinder mit Hilfe eines Messers fertig präpariert, bis er flach war und genau 100cm³ enthielt. Wo dies auf Grund der extremen Trockenheit nicht praktikabel schien (bröckelie Probe), wurde überständiges Material grosszügig stehen gelassen. Nach einer ersten Wägung im Feld wurden locker sitzende Zylinderdeckel anschliessend mit Klebeband fixiert, um ein Herausfallen insbesondere von trockener Erde zu vermeiden. Teilweise wurde am gleichen Abend eine zweite Messung auf einem stabilen Tisch durchgeführt.  Für den Transport und die Aufbewahrung wurden mehrere Zylinder ortsweise in Plastikbeutel verpackt.
 

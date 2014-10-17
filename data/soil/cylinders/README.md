@@ -25,10 +25,10 @@
 |		|31		|Probe anders erhoben (Tube statt Zylinder)
 |		|51		|Zylinder defekt
 |		|52		|Zylinder nicht auffindbar
-|		|53		|Zylindervolumen oder Form nicht konform
-|		|54		|Zylinder/Tube undicht / Materialverlust gegenüber 1. Wägung
-|		|55		|Zylinder/Tube undicht / Materialverlust gegenüber 2. Wägung
-	
+|		|53		|Zylinderinhalt zu klein
+|		|54		|Zylinderinhalt nachträglich verrringert
+|		|55		|Zylinderinhalt beträchtlich gestört/zerfallen
+
 
 ##Parameter##
 |			|Einheit	|Beschreibung

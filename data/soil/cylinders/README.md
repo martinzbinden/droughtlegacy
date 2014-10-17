@@ -9,52 +9,41 @@
 |CylindersReplacement_DroughtLegacyExpA.csv	| Tuben statt Zylinder für Thun, Tuben T1, T2, T3, ... (Zylinder wegen Steinen nicht möglich)
 		
 		
-Plot	number	plot number (1-6)
-		
-		
-Hole	1	uphill (only dry plots)
-	2	middle
-	3	downhill (only dry plots)
-		
-		
-Depth		obere Probentiefe
-	5	5-20 cm
-	25	25-40 cm
-	45	45-60 cm
-		
-		
-DepthTo_cm		unter Probentiefe (falls von Norm abweichend)
-		
-		
-Zylinder	number	t number
-		
+
+##Wertezuweisungen##
+|Variable	|Wert		|Bedeutung
+|--------	|-------	|-----------
+|errorcode	|0		|alles o.k.
+|		|1		|undefinierterter Fehler
+|		|10		|Probe nicht erhoben
+|		|11		|Probe nicht erhoben (Steine)
+|		|12		|Probe nicht erhoben (Auslassung)
+|		|20		|Feldaufzeichnung/-Wägung fehlt/verloren
+|		|21		|Probe fehlt/verloren
+|		|22		|Laborwägung weicht mehr als 0.2g ab von Feldwägung
+|		|30		|Probe anders erhoben
+|		|31		|Probe anders erhoben (Tube statt Zylinder)
+|		|51		|Zylinder defekt
+|		|52		|Zylinder nicht auffindbar
+|		|53		|Zylindervolumen oder Form nicht konform
+|		|54		|Zylinder/Tube undicht / Materialverlust gegenüber 1. Wägung
+|		|55		|Zylinder/Tube undicht / Materialverlust gegenüber 2. Wägung
 	
-		
-	
-Fehlercodes		Code für fehlende oder mangelhafte Daten
-	0	alles o.k.
-	1	Fehler, noch abzuklären
-	10	Probe nicht erhoben
-	11	Probe nicht erhoben (Steine)
-	12	Probe nicht erhoben (Auslassung)
-		
-	20	Feldaufzeichnung/-Wägung fehlt/verloren
-	21	Probe fehlt/verloren
-	22	Laborwägung weicht mehr als 0.2g ab von Feldwägung
-		
-	30	Probe anders erhoben
-	31	Probe anders erhoben (Tube statt Zylinder)
-		
-	51	Zylinder defekt
-	52	Zylinder nicht auffindbar
-	53	Zylindervolumen oder Form nicht konform
-	54	Zylinder undicht / Materialverlust gegenüber 1. Wägung
-	55	Zylinder undicht / Materialverlust gegenüber 2. Wägung
-		
-		
-		
-		
-AluTara		Tara Aluminiumschalen für Trockenschrank. Gleiche Nummer wie Zylinder.
+
+##Parameter##
+|			|Einheit	|Beschreibung
+|------------		|------------	|---------------
+|nr_cylinder		|number		|Zylindernummer
+|nr_cap			|number		|Nummer Zylinderdeckel	
+|tara_cylinder_g	|gram (g)	|Zylindertara inkl. Deckel
+|tara_cup_g		|gram (g)	|Tara Aluminiumschalen für Trockenschrank. Gleiche Nummer wie Zylinder.
+|field_g		|gram (g)	|Frischgewicht im Feld, inkl. tara_cylinder_g
+|fieldlab_g		|gram (g)	|Frischgewicht im Feld, inkl. tara_cylinder_g
+|tara_cup_g		|gram (g)	|Leergewicht Aluminiumschale  
+|adhesive_g		|gram (g)	|Entferntes Klebeband (zur Transportsicherung)
+|dry_cup_g		|gram (g)	|Trockengewicht nach Trocknung 24h bei 105°C
+|dry_cup_g_measureend	|gram (g)	|Trockengewicht (Überprüfung erste Wägungen am Ende aller Wägungen, ca. 30 Minuten nach Beginn)
+|dry_cup_g_3days	|gram (g)	|Trockengewicht (nochmalige Wägung nach 3 Tagen)
 
 
 ## Journal ##

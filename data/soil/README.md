@@ -10,16 +10,16 @@ Zweck:  Bestimmung der Bodenfeuchte zum Zeitpunkt der Probenahme, evtl. weitere 
 
 
 
-##Datenformat##
-gernerell: ''place plot.hole''
+##Faktoren##
+gernerelle Beschriftungsregel: ''place plot.hole''
 
-|Variable   | Einheit       | Beschreibung
-|-------    |---------      |----------------
-|place      | factor        | Ortskürzel (z.B. SOM, CAS, siehe Projektbeschreibung)
-|plot	      | factor	      | plot number (1-6)
-|hole       | factor        | hole number (1-3)
-|depth      | factor/cm     | Tiefenbereich der Probenahme / obere Grenze
-|maxdepth		| cm            | unter Probentiefe (falls von Standard abweichend)
+|           | Einheit   | Beschreibung
+|-------    |---------  |----------------
+|place      | -         | Ortskürzel (z.B. SOM, CAS, siehe Projektbeschreibung)
+|plot	      | -	        | plot number (1-6)
+|hole       | -         | hole number (1-3)
+|depth      | cm        | Tiefenbereich der Probenahme / obere Grenze
+|maxdepth		| cm        | unter Probentiefe (falls von Standard abweichend)
 
 
 

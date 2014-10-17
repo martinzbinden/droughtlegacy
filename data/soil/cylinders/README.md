@@ -1,27 +1,12 @@
-== Hinweise: ==
-	- Die leeren Zylinder bilden zusammen mit ihren Deckeln eine feste Einheit (gleiche Nummern), für welche das Tara-Gewicht vorgängig erhoben wurde (unterschiedliche Herkunft = unterschiedliche Leergewichte).
+## Hinweise: ##
+- Die leeren Zylinder bilden zusammen mit ihren Deckeln eine feste Einheit (gleiche Nummern), für welche das Tara-Gewicht vorgängig erhoben wurde (unterschiedliche Herkunft = unterschiedliche Leergewichte).
 
-Feuchtigkeitsproben Drought Legacy		
-Waage: Mettler PM4800 DeltaRange (Landwirtschaftslabor)		
-Gewichtsangaben inkl. Deckel (Tubes und Zylinder)		
 
 == Dateibeschreibungen ==
-Zylinder			Zylinderproben für Bodenphysik
-ZylinderErsatz		Tuben statt Zylinder für Thun, Tuben T1, T2, T3, ... (Zylinder wegen Steinen nicht möglich)
-		
-		
-
-		
-== Wertzuordnungen / Abkürzungen ==
-
-Place	ZOL	Zollikofen
-	KRA	
-	THU	
-	BCH	
-	B	
-	CAS	
-	NEG	
-	SOM	
+|Dateiname  					|
+|---------					|-------------
+|Cylinders_DroughtLegacyExpA.csv		| Zylinderproben für Bodenphysik
+|CylindersReplacement_DroughtLegacyExpA.csv	| Tuben statt Zylinder für Thun, Tuben T1, T2, T3, ... (Zylinder wegen Steinen nicht möglich)
 		
 		
 Plot	number	plot number (1-6)
@@ -45,7 +30,9 @@ DepthTo_cm		unter Probentiefe (falls von Norm abweichend)
 		
 Zylinder	number	t number
 		
+	
 		
+	
 Fehlercodes		Code für fehlende oder mangelhafte Daten
 	0	alles o.k.
 	1	Fehler, noch abzuklären

@@ -28,6 +28,7 @@
 |		|53		|Zylinderinhalt zu klein
 |		|54		|Zylinderinhalt nachträglich verrringert
 |		|55		|Zylinderinhalt beträchtlich gestört/zerfallen
+|		|56		|Zylinderinhalt nachträglich leicht ausgeebnet
 
 
 ##Parameter##

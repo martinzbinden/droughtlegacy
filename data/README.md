@@ -1,9 +1,11 @@
 ---
-title: "Data Drought Legacy"
 author: "M. Zbinden"
 date: "17.10.2014"
-output: html_document
 ---
+
+Data Drought Legacy
+----------------------
+
 
 Contents
 ---------

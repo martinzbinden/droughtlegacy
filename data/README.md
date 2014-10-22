@@ -1,21 +1,18 @@
 ---
 author: "M. Zbinden"
-date: "17.10.2014"
+date: "22.10.2014"
 ---
 
 Data Drought Legacy
-----------------------
+-------------------
 
-
-Contents
----------
-Directorytree ...
-
-
-
+##Contents
+meteo:      rainfall data during experiment A
+soil:       soil wetness data for experiment A (cylinder probes, falcon tubes)
+vegetation: vegetation assessments and harvests
 
 Standorte
----------
+=========
 
 |Kürzel | Ort
 |-------|----------

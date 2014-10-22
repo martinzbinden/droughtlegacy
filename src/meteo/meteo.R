@@ -18,7 +18,7 @@ meteoswiss_rain$rre150b0 <- as.numeric(meteoswiss_rain$rre150b0)
 meteoswiss_rain$rre150h0 <- as.numeric(meteoswiss_rain$rre150h0)
 meteoswiss_rain$rre024i0 <- as.numeric(meteoswiss_rain$rre024i0)
 
-meteoswiss_rain_rain <- aggregate(cbind(rre150b0,rre150h0,rre024i0)~date+stn,meteoswiss_rain,sum)
+meteoswiss_rain <- aggregate(cbind(rre150b0,rre150h0,rre024i0)~date+stn,meteoswiss_rain,sum)
 
 plot(rre150b0~stn+date,meteoswiss_rain)
 
@@ -59,13 +59,17 @@ qplot(date, precip, droughtlegacy_rainm)
 
 #t_maxmin=ddply(t_air,.(Datum),summarize,Datum=Datum[which.max(T_Luft)],max.value=max(T_Luft),min.value=min(T_Luft))
 
-as.ts(droughtlegacy_rain)
+df <- as.ts(droughtlegacy_rain)
 
 barplot(droughtlegacy_rain$BER)
 ts()
 
-as.ts(fd)
+dg <- as.ts(meteoswiss_rain)
+barplot(meteoswiss_rain$rre150b0)
+barplot(droughtlegacy_rain$precip)
 
+
+df - dg
 
 
 

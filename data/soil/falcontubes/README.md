@@ -1,5 +1,9 @@
 Hinweise:
 - Wägung immer mit Deckel
+- Tara: 
+  - Tube 10.15g
+  - Deckel 2.95 (blau) - 3.05 g (weiss), Streuung herstellerseitig plus Erdreste (+/-0.01 g)
+
 
 
 Journal:

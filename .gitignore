@@ -17,9 +17,4 @@ tmp/
 *.gnumeric
 *.ods
 #!*.csv
-<<<<<<< HEAD
-#*.csv
-=======
-*.csv
->>>>>>> 9fe566b8d69457524fe38b1a6569d148ff8a34be
 *.gif

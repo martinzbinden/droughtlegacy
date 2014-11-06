@@ -13,8 +13,8 @@
 ##Wertezuweisungen##
 |Variable	|Wert		|Bedeutung
 |--------	|-------	|-----------
-|errorcode	|0		|alles o.k.
-|		|1		|undefinierterter Fehler
+|errorcode|0		|alles o.k.
+|	        |1		|undefinierterter Fehler
 |		|10		|Probe nicht erhoben
 |		|11		|Probe nicht erhoben (Steine)
 |		|12		|Probe nicht erhoben (Auslassung)
@@ -58,4 +58,5 @@
 	Die Probenzylinder wurden mit Deckeln und Aluschale auf der Mettler PM4800 gewogen.
 
 2014-10-13 Kontrolle und Instandsetzung der Probenzylinder
+  Bei Manipulationen am Zylinder entsprechende Mutationsinformation (MI) gesetzt.
 	

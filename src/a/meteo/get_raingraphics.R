@@ -5,7 +5,7 @@ getwd()
 # Beispiel: BIN <- "http://www.meteoschweiz.admin.ch/files/metweb/verlaufsgrafiken/TagVerlaufRegen.BIN.gif"
 stations <- c("BER", "THU", "VIS", "BRI", "BIN", "ULR", "COM", "SBO")
 baseurl <- "http://www.meteoschweiz.admin.ch/files/metweb/verlaufsgrafiken/TagVerlaufRegen"
-destfile.folder <- "data/meteo/gif/"
+destfile.folder <- "data/a/meteo/meteoswiss/gif/"
 destfile.suffix <- "gif"
 
 

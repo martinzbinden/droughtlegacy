@@ -1,0 +1,6 @@
+type,description,consequence,bit,decimal
+fehlende Daten,kein Zylinder vorhanden,Ersatzprobe (Tube),0,1
+mangelhafte Daten,Zylinderform beeinträchtigt,Oberfläche ausgeebnet,1,2
+mangelhafte Daten,Zylinderform stark beeinträchtigt,Zylinder rekonstruiert,1,4
+mangelhafte Daten,Zylinderinhalt zu gross,Materialabtrag,2,8
+mangelhafte Daten,Zylinderinhalt zu klein,-,3,16

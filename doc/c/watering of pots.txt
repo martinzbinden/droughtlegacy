@@ -1,0 +1,34 @@
+Hinweise
+--------
+- Dreilochdüsen sind nicht nach ISO farbkodiert -> herstellerspezifische Tabelle beachten
+- grössere Wassermengen/Zeit sind einfach über höhe Wasserdrücke zu realisieren
+
+
+Bewässerungsmethoden
+--------------------
+
+1) Einzeltopfbewässerung
+Druckreduktion 1bar, 1/2 Balken mit 2x gelben Dreilochdüsen, auf 1,5 mm aufgebohrt für weicheren Strahl
+
+0,4L/min pro Düse (gemessen), d.h. pro Sekunde eingeschaltet ca. 6,6 ml
+
+Wassergabe von 5 Sekunden bedeutet 33.3ml je Topf (2 gleichzeitig) -> ca. 2 Stunden um alles zu bewässern. 
+
+2) Vernebelung
+Druckreduktion 1bar, 1/2 Balken mit 2x gelben Flachstrahldüsen (Originaldüsen)
+
+0.5L/min pro Düse (gemessen), d.h. pro Sekunde eingeschaltet ca. 8,3 ml
+
+Wassergabe von 8 Sekunden bedeutet Vernebelung von 133ml Wasser, das wären ca. 30ml je Topf (5 gleichzeitig). Abdriftverluste nicht berücksichtigt. 
+
+
+Praxistest Vernebelung
+----------------------
+12 Sekunden bewässert mit Methode 2)
+
+5 Töpfe dicht an dicht in Reihe -> in allen Töpfen zwischen 11 und 14ml Wasser gemessen (mit zwei Weingläsern gemessen, nicht ganze Topffläche aufgefangen)
+
+Abdrift seitwärts: <1 mm pro benachbarter Topf
+Abdrift in Reihe: grösser, unklar
+
+Fazit: Vernebelung funktioniert auch relativ gleichmässig, aber die effektive Menge ist schwierig zu kontrollieren. Methode 1) ist vorzuziehen, falls möglich.

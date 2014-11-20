@@ -212,3 +212,6 @@ nr,place,plot,hole,depth,field_g,fieldlab_g,tubecolor,dry_g,depth_max_cm,error,d
 725,CAS,5,2,5,47.6,47.75,weiss,41.33,,,2014-Aug-28,
 726,CAS,5,2,25,54.4,54.53,weiss,47.63,,,2014-Aug-28,
 727,CAS,5,2,45,56.8,57.01,weiss,50.53,,,2014-Aug-28,
+901,tara,1,,,13.06,,weiss,,,,2014-Nov-20,
+911,tara,1,,,13.06,,blau,,,,2014-Nov-20,
+

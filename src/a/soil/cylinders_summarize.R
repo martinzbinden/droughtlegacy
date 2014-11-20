@@ -6,25 +6,43 @@
 cylinders <- read.csv("data/a/soil/cylinders/Cylinders_DroughtLegacyExpA.csv",na.strings=c("NA",""))
 cylindersreplacement <- read.csv("data/a/soil/cylinders/CylindersReplacement_DroughtLegacyExpA.csv")
 
-
-row.has.na <- apply(cylinders$place,1,function(x) {any(is.na(x))})
-
-cylinders[!row.has.na]
-
-apply
 cylinders <-  cylinders[complete.cases(cylinders$plot),]
+cylinders <- rbind(cylinders, cylindersreplacement)
 
-
-
+str(cylinders)
+str(cylindersreplacement)
 
 trialdesign <- read.csv("data/a/trialdesign.csv")
 str(trialdesign)
-merge(x=cylinders,y=trialdesign,by=c("plot","place"))
+trialdesign <- trialdesign[trialdesign$subplot == 1 ,]
+df <- merge(x=cylinders,y=trialdesign,by=c("plot","place"),  )
 
-library(sqldf)
+df$freshmatter <- df$field_g - df$tara_cylinder_g
+df$drymatter <- df$dry_cup_g - df$tara_cylinder_g - df$tara_cup_g
+df$water <- df$freshmatter - df$drymatter
+df$watercontent <- df$water / df$freshmatter
+
+head(df)
+str(df)
+df[,1:9]
+levels(df$place)
+df[,20:10]
+plot(watercontent ~ place, df)
+plot(watercontent ~ treatment, df)
+
+
+
+## plot
+library(ggplot2)
+qplot(treatment, watercontent, data=df, geom="boxplot", facets= ~place)
+
+
+
+
+## alternative to merge: sqldf
 ##inner join
+library(sqldf)
 df3 <- sqldf("SELECT nr_cylinder, nr_cap, tara_cylinder_g, place, plot, herbicide, fungicide FROM cylinders JOIN trialdesign USING(place,plot)")
-
 
 ##left join
 df3 <- sqldf("SELECT nr_cylinder, nr_cap, tara_cylinder_g, place, plot, herbicide, fungicide FROM cylinders LEFT JOIN trialdesign USING(place,plot)")
@@ -39,22 +57,10 @@ joined.cylinders.trialdesign <- dt1[dt2]
 if(!require(dplyr))
 {install.packages("dplyr")}
 
-str(cylinders)
-cylinders[,1:10]
 
 freshmatter_3  <- cylinders$FreshWeightLab2Brutto_g - cylinders$Tara_g - cylinders$AluTara_g
 freshmatter_2 <- cylinders$FreshWeightFieldLab_g - cylinders$Tara_g 
-freshmatter <- cylinders$FreshWeightField_g - cylinders$Tara_g
 
-drymatter <- cylinders$DryWeight_Lab - cylinders$Tara_g - cylinders$AluTara_g
-water <- freshmatter - drymatter
-watercontent <- water / freshmatter
-
-plot(watercontent ~ cylinders$Place)
-
-plot(freshmatter, freshmatter_2)
-plot(freshmatter, freshmatter_3)
-barplot(watercontent)
 
 
 
